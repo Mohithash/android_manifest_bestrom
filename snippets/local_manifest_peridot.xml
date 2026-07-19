@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BestROM A17 · POCO F6 (peridot) device stack only -->
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+
+  <project name="Mohithash/device_xiaomi_peridot"
+           path="device/xiaomi/peridot"
+           remote="github"
+           revision="bestrom-a17" />
+
+  <project name="GuidixX/vendor_xiaomi_peridot"
+           path="vendor/xiaomi/peridot"
+           remote="github"
+           revision="16.2" />
+  <project name="GuidixX/kernel_xiaomi_sm8635"
+           path="kernel/xiaomi/sm8635"
+           remote="github"
+           revision="16.2" />
+  <project name="GuidixX/kernel_xiaomi_sm8635-modules"
+           path="kernel/xiaomi/sm8635-modules"
+           remote="github"
+           revision="16.2" />
+  <project name="GuidixX/kernel_xiaomi_sm8635-devicetrees"
+           path="kernel/xiaomi/sm8635-devicetrees"
+           remote="github"
+           revision="16.2" />
+
+  <project name="VoltageOS/hardware_xiaomi"
+           path="hardware/xiaomi"
+           remote="github"
+           revision="16" />
+
+  <project name="LineageOS/android_hardware_qcom-caf_common"
+           path="hardware/qcom-caf/common"
+           remote="github"
+           revision="lineage-22.2" />
+  <project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf"
+           path="vendor/qcom/opensource/commonsys-intf/display"
+           remote="github"
+           revision="lineage-23.2" />
+  <project name="LineageOS/android_vendor_qcom_opensource_display-commonsys"
+           path="vendor/qcom/opensource/commonsys/display"
+           remote="github"
+           revision="lineage-23.2" />
+  <project name="Voltage-Peridot/hardware_qcom-caf_sm8650_display"
+           path="hardware/qcom-caf/sm8650/display"
+           remote="github"
+           revision="16" />
+</manifest>
