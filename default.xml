@@ -2,15 +2,12 @@
 <!--
   BestROM A17 full platform manifest (GrapheneOS model)
   Platform: AOSP android-17.0.0_r1 (full project list from Google)
-  Product:  vendor/bestrom → Mohithash/android_vendor_bestrom @ 17
-  Devices:  snippets/local_manifest_peridot.xml via .repo/local_manifests
-  NOT Evolution X / Lineage-24 feature stack
+  Product: vendor/bestrom Mohithash/android_vendor_bestrom branch 17
+  Devices: snippets/local_manifest_peridot.xml via local_manifests
+  NOT Evolution X or Lineage 24 feature stack
 
-  repo init -u https://github.com/Mohithash/android_manifest_bestrom -b 17 --git-lfs
-  mkdir -p .repo/local_manifests
-  curl -L -o .repo/local_manifests/peridot.xml \
-    https://raw.githubusercontent.com/Mohithash/android_manifest_bestrom/17/snippets/local_manifest_peridot.xml
-  repo sync -c -j$(nproc) --force-sync --no-clone-bundle --no-tags
+  repo init -u https://github.com/Mohithash/android_manifest_bestrom -b 17
+  Add local_manifests/peridot.xml then run: repo sync -c -j8
 -->
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
